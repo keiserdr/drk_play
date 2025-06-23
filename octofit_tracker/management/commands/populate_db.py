@@ -23,7 +23,7 @@ class Command(BaseCommand):
         team1.members.add(user1, user2)
         team2.members.add(user3)
 
-        # Activities
+        # Activities 
         Activity.objects.create(user=user1, activity_type="run", duration=30)
         Activity.objects.create(user=user2, activity_type="walk", duration=45)
         Activity.objects.create(user=user3, activity_type="strength", duration=20)
