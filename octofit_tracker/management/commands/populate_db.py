@@ -28,7 +28,7 @@ class Command(BaseCommand):
         Activity.objects.create(user=user2, activity_type="walk", duration=45)
         Activity.objects.create(user=user3, activity_type="strength", duration=20)
 
-        # Leaderboard
+        # Leaderboard 
         Leaderboard.objects.create(team=team1, points=120)
         Leaderboard.objects.create(team=team2, points=95)
 
